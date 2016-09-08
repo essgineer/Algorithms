@@ -1,0 +1,42 @@
+public class Solution {
+	int count=0;
+	int j=0,i=0;
+	public int solution(int[] A){
+		 // create an array list
+	      ArrayList al = new ArrayList();
+		while (j<A.length){	
+			if(A[j]!=A[i]){
+				al.add(A[i]);
+			}
+			if(A[j]==A[i]&& i!=j){
+				System.out.println("A["+j+"]="+A[j]+"  A["+i+"]="+A[i]);
+				count++;}
+			
+			
+		
+			//boucle simple: WORKING
+			System.out.println("j="+j+" i="+i);
+			i++;
+			if(i==A.length){
+				j++;
+				i=j;
+			}	
+		}
+		j=count;
+		return count;
+	}
+		
+	public static void main(String[] args) 
+	{
+	    int[] numbers = new int[10];       
+	    //Generates 10 Random Numbers in the range 1 -20
+	    for(int i = 0; i < numbers.length; i++) {
+	      numbers[i] = (int)(Math.random()*20 + 1);
+	    }//end for loop
+	    System.out.println("Numbers Generated: " + Arrays.toString(numbers));
+	   System.out.println("***************"); 
+	    Solution sol=new Solution();
+	    //sol.solution(numbers);
+	    System.out.println("count= "+sol.solution(numbers));
+	}
+}
