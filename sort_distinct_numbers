@@ -5,6 +5,6 @@ class Solution {
         for(int a: A){
             distinctMap.add(a);
         }
-        return distinctMap.size();
+        return distinctMap.size(); 
     }
 }
