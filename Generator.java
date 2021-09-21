@@ -3,6 +3,7 @@
 ***************/
 /* this program supplies a resizable table, with random integer values*/
 //package tableGenerator;
+
 import java.util.Random;
 public class Generator {
 	
