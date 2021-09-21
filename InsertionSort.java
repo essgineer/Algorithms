@@ -14,7 +14,6 @@ public class InsertionSort {
 		}	
     }
 
-    
 	/*****************************/
 	public static void main (String Arg[]){
 		int size=10; 								//size of table;
