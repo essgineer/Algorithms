@@ -4,7 +4,6 @@ Created on Thu Dec 03 02:03:27 2015
 
 @author: Me
 """
-
 #import pylab 
 import matplotlib.pyplot as pyp
 
