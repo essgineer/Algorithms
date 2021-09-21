@@ -12,7 +12,6 @@ public class Solution {
 				System.out.println("A["+j+"]="+A[j]+"  A["+i+"]="+A[i]);
 				count++;}
 			
-			
 		
 			//boucle simple: WORKING
 			System.out.println("j="+j+" i="+i);
