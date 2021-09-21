@@ -25,4 +25,4 @@ pyp.legend()
 pyp.savefig("InsertionSort.png")
 
 # show the plot on the screen
-pyp.show()
+pyp.show() 
