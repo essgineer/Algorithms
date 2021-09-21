@@ -37,7 +37,6 @@ public class MergeSort {
     }
 
 
-
     private void mergeParts(int lowerIndex, int middle, int higherIndex) {
 
         for (int i = lowerIndex; i <= higherIndex; i++) {
